@@ -4,7 +4,7 @@ Terraform module that gets the kubernetes and helm provider config for managed c
 # Usage
 ```terraform
 module "production_cluster" {
-  source       = "rhysj6/rancher-kubeconfig"
+  source       = "rhysj6/kubeconfig/rancher"
   version      = "1.0.0"
   cluster_name = "test"
 }
